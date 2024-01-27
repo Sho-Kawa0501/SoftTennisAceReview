@@ -138,8 +138,8 @@ const ReviewForm = ({ onSubmit,reviewId }: ReviewFormProps,) => {
             {...register('content', {
               required: '説明は必須です。',
               maxLength: {
-                value: 800,
-                message: '説明は500文字以内で入力してください。',
+                value: 400,
+                message: '説明は400文字以内で入力してください。',
               },
             })}
           />
