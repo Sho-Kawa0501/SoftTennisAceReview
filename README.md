@@ -1,38 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SoftTennisAceReview
+## アプリケーション概要
+ソフトテニスラケットのレビューを他の競技者と共有できるWebアプリケーションです。
+### 目指した課題解決
+ラケット選びの判断材料を増やすという競技者のニーズを満たすことと、ソフトテニス業界の繁栄に協力することを目指しました。
 
-## Getting Started
+### URL
+https://www.softtennis-ace-review.com
+### テスト用アカウント
+- メールアドレス/t1@t1.com
+- パスワード/test1pass
 
-First, run the development server:
+# 主な機能
+### ・ホーム画面(ログイン前、ログイン後)
+<div style="display: flex; flex-wrap: wrap;">
+  <img style="width: 45%; margin: 1%;" alt="ホーム画面(ログイン前)" 
+    src="https://github.com/Sho-Kawa0501/shopping-site-json/assets/120151638/9f8367e7-288b-47cd-a296-1464be90aa0c">
+  <img style="width: 45%; margin: 1%;"alt="ホーム画面(ログイン後)" 
+    src="https://github.com/Sho-Kawa0501/shopping-site-json/assets/120151638/efadf2e1-6a69-4467-bce5-68e2202fb240">  
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### ・レビュー投稿機能(レビュー未投稿時の画面)
+<div style="display: flex; flex-wrap: wrap;">
+ <img style="width: 45%; margin: 1%;" alt="ホーム画面(ログイン前)" 
+  src="https://github.com/Sho-Kawa0501/shopping-site-json/assets/120151638/5a06c854-e16d-4685-a3f5-2ca2251a2d89">
+ <img style="width: 45%; margin: 1%;" alt="ホーム画面(ログイン前)" 
+  src="https://github.com/Sho-Kawa0501/shopping-site-json/assets/120151638/483604c7-ecdd-4d36-80b4-00d14ebfdf3e">
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### ・レビュー投稿機能(レビュー投稿済みの画面)
+<div style="display: flex; flex-wrap: wrap;">
+ <img style="width: 45%; margin: 1%;" alt="ホーム画面(ログイン前)" 
+  src="https://github.com/Sho-Kawa0501/shopping-site-json/assets/120151638/830a69d5-af92-4fcb-8fa4-4ab6c40dfc8d">
+</div>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### ・マイページ(それぞれのページに遷移可能)
+<div style="display: flex; flex-wrap: wrap;">
+ <img style="width: 45%; margin: 1%;" alt="ホーム画面(ログイン前)" 
+  src="https://github.com/Sho-Kawa0501/shopping-site-json/assets/120151638/9e78559d-5b47-4d1d-8ad2-2a32479c83ce">
+</div>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 使用技術
+| Category          | Technology Stack                          |
+| ----------------- | ----------------------------------------- |
+| Frontend          | TypeScript, Next.js, redux-tool-kit       |
+| Backend           | Python, Django-rest-framework             |
+| Infrastructure    | Render, Vercel                            |
+| Database          | PostgreSQL                                |
+| Design            | tailwind-css                              |
+| etc.              | Git, GitHub, AmazonS3                     |
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 主な実装機能一覧
+### 基本機能
+- ログイン
+- 新規会員登録
+- ラケットの一覧表示
+- ラケットの絞り込み機能(シリーズ)
+- レビューの一覧表示
+- レスポンシブ対応
+### ログイン後機能
+- レビューの投稿・編集・削除
+- レビューのお気に入り登録
+- マイページ参照
+  - プロフィール編集（ユーザー名、アイコン）
+  - 投稿済みレビューの一覧表示
+  - お気に入り登録済みレビューの一覧表示
+- アカウント削除
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### ER図
+![SoftTennisAceReviewER図](https://github.com/Sho-Kawa0501/shopping-site-json/assets/120151638/1647bdfc-f147-4f13-9f47-83b6c82592a7)
