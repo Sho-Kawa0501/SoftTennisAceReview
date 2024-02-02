@@ -82,10 +82,9 @@ return (
       }
     <div className="mb-4">
       <div className="mb-1">
-        名前
+        ニックネーム
       </div>
       <TextInput
-        label="ニックネーム"
         type="text"
         placeholder="ニックネーム"
         {...register('name',{
