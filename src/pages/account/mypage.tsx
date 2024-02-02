@@ -38,7 +38,7 @@ const MyPage = () => {
             )}
             <h1 className="text-2xl font-bold">{loginUser.name}</h1>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-2">
             <Link href="/account/mypage/profile" legacyBehavior>
               <a className="border p-3 text-black text-center hover:bg-gray-200 rounded bg-white">プロフィール編集</a>
             </Link>
