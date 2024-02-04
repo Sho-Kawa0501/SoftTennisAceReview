@@ -11,7 +11,7 @@ https://www.softtennis-ace-review.com
 - パスワード/test1pass
 
 
-# 主な機能
+## 主な機能
 ### ・ホーム画面(ログイン前、ログイン後)
 <div style="display: flex; flex-wrap: wrap;">
   <img style="width: 45%; margin: 1%;" alt="ホーム画面(ログイン前)" 
@@ -22,10 +22,10 @@ https://www.softtennis-ace-review.com
 
 ### ・レビュー投稿機能(レビュー未投稿時の画面)
 <div style="display: flex; flex-wrap: wrap;">
- <img style="width: 45%; margin: 1%;" alt="レビューリスト(ログイン前)" 
+ <img style="width: 47%; margin: 1%;" alt="レビューリスト(ログイン前)" 
   src="https://github.com/Sho-Kawa0501/SoftTennisAceReview/assets/120151638/e98f77c2-ccee-441e-b89b-8486ae6a86cf">
- <img style="width: 45%; margin: 1%;" alt="レビューフォーム" 
-  src="https://github.com/Sho-Kawa0501/SoftTennisAceReview/assets/120151638/0411d444-1bec-4ed9-9bc0-9864a6622dda">
+ <img style="width: 47%; margin: 1%;" alt="レビューフォーム" 
+  src="https://github.com/Sho-Kawa0501/SoftTennisAceReview/assets/120151638/75ecbe09-f46c-4224-9a82-ae182eb739c3">
 </div>
 
 ### ・レビュー投稿機能(レビュー投稿済みの画面)
@@ -45,9 +45,9 @@ https://www.softtennis-ace-review.com
 | Category          | Technology Stack                          |
 | ----------------- | ----------------------------------------- |
 | Frontend          | TypeScript, Next.js, redux-tool-kit       |
-| Backend           | Python, Django-rest-framework             |
+| Backend           | Python(3.11),Django-rest-framework(3.14.0)|
 | Infrastructure    | Render, Vercel                            |
-| Database          | PostgreSQL                                |
+| Database          | PostgreSQL(14.10)                         |
 | Design            | tailwind-css                              |
 | etc.              | Git, GitHub, AmazonS3                     |
 
@@ -58,7 +58,6 @@ https://www.softtennis-ace-review.com
 - ラケットの一覧表示
 - ラケットの絞り込み機能(シリーズ)
 - レビューの一覧表示
-- レスポンシブ対応
 ### ログイン後機能
 - レビューの投稿・編集・削除
 - レビューのお気に入り登録
@@ -68,5 +67,11 @@ https://www.softtennis-ace-review.com
   - お気に入り登録済みレビューの一覧表示
 - アカウント削除
 
-### ER図
-![SoftTennisAceReviewER図](https://github.com/Sho-Kawa0501/shopping-site-json/assets/120151638/1647bdfc-f147-4f13-9f47-83b6c82592a7)
+## 今後実装したいもの
+- プロフィールに「競技歴、年齢、性別、プレースタイル、使用中のラケット」などの項目を追加し、
+ その条件に沿ってユーザーを検索できる機能
+- お気に入り登録されている数を使用してレビューのランキングを表示させる機能
+- それぞれのユーザーごとにおすすめのレビュー、ラケットを表示させる機能
+
+## ER図
+![SoftTennisAceReviewER図](https://github.com/Sho-Kawa0501/SoftTennisAceReview/assets/120151638/f0cafb8e-45a0-4792-8fe4-f830d8a0a846)
