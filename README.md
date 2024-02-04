@@ -22,22 +22,22 @@ https://www.softtennis-ace-review.com
 
 ### ・レビュー投稿機能(レビュー未投稿時の画面)
 <div style="display: flex; flex-wrap: wrap;">
- <img style="width: 45%; margin: 1%;" alt="ホーム画面(ログイン前)" 
-  src="https://github.com/Sho-Kawa0501/shopping-site-json/assets/120151638/5a06c854-e16d-4685-a3f5-2ca2251a2d89">
- <img style="width: 45%; margin: 1%;" alt="ホーム画面(ログイン前)" 
-  src="https://github.com/Sho-Kawa0501/shopping-site-json/assets/120151638/483604c7-ecdd-4d36-80b4-00d14ebfdf3e">
+ <img style="width: 45%; margin: 1%;" alt="レビューリスト(ログイン前)" 
+  src="https://github.com/Sho-Kawa0501/SoftTennisAceReview/assets/120151638/e98f77c2-ccee-441e-b89b-8486ae6a86cf">
+ <img style="width: 45%; margin: 1%;" alt="レビューフォーム" 
+  src="https://github.com/Sho-Kawa0501/SoftTennisAceReview/assets/120151638/0411d444-1bec-4ed9-9bc0-9864a6622dda">
 </div>
 
 ### ・レビュー投稿機能(レビュー投稿済みの画面)
 <div style="display: flex; flex-wrap: wrap;">
- <img style="width: 45%; margin: 1%;" alt="ホーム画面(ログイン前)" 
-  src="https://github.com/Sho-Kawa0501/shopping-site-json/assets/120151638/830a69d5-af92-4fcb-8fa4-4ab6c40dfc8d">
+ <img style="width: 45%; margin: 1%;" alt="レビューリスト(ログイン後)" 
+  src="https://github.com/Sho-Kawa0501/SoftTennisAceReview/assets/120151638/7b20fcac-c0aa-48cf-a98d-94476434c68b">
 </div>
 
 ### ・マイページ(それぞれのページに遷移可能)
 <div style="display: flex; flex-wrap: wrap;">
- <img style="width: 45%; margin: 1%;" alt="ホーム画面(ログイン前)" 
-  src="https://github.com/Sho-Kawa0501/shopping-site-json/assets/120151638/9e78559d-5b47-4d1d-8ad2-2a32479c83ce">
+ <img style="width: 45%; margin: 1%;" alt="マイページ" 
+  src="https://github.com/Sho-Kawa0501/SoftTennisAceReview/assets/120151638/27e57e8f-3951-40db-a205-107e145f44ee">
 </div>
 
 
