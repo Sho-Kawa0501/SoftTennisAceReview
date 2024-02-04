@@ -9,7 +9,7 @@ https://www.softtennis-ace-review.com
 ### テスト用アカウント
 - メールアドレス/t1@t1.com
 - パスワード/test1pass
-<img width="740" alt="ホーム画面(ログイン前)" src="https://github.com/Sho-Kawa0501/SoftTennisAceReview/assets/120151638/341f12cb-6187-4e3c-8873-5addc16968f0">
+
 
 # 主な機能
 ### ・ホーム画面(ログイン前、ログイン後)
@@ -17,10 +17,8 @@ https://www.softtennis-ace-review.com
   <img style="width: 45%; margin: 1%;" alt="ホーム画面(ログイン前)" 
     src="https://github.com/Sho-Kawa0501/SoftTennisAceReview/assets/120151638/341f12cb-6187-4e3c-8873-5addc16968f0">
   <img style="width: 45%; margin: 1%;"alt="ホーム画面(ログイン後)" 
-    src="https://github.com/Sho-Kawa0501/shopping-site-json/assets/120151638/efadf2e1-6a69-4467-bce5-68e2202fb240">  
+    src="https://github.com/Sho-Kawa0501/SoftTennisAceReview/assets/120151638/9f382198-d53d-488e-8650-5865b0cb9725">  
 </div>
-
-
 
 ### ・レビュー投稿機能(レビュー未投稿時の画面)
 <div style="display: flex; flex-wrap: wrap;">
@@ -41,6 +39,7 @@ https://www.softtennis-ace-review.com
  <img style="width: 45%; margin: 1%;" alt="ホーム画面(ログイン前)" 
   src="https://github.com/Sho-Kawa0501/shopping-site-json/assets/120151638/9e78559d-5b47-4d1d-8ad2-2a32479c83ce">
 </div>
+
 
 ## 使用技術
 | Category          | Technology Stack                          |
