@@ -88,14 +88,19 @@ const ItemFilterModal = () => {
       </Head>
       <AppButton onClick={() => dispatch(setActiveModal('ItemFilterModal'))} text="絞り込み" type="submit" color="blue"/>
       <Modal 
-        isOpen={modalIsOpen} 
-        onRequestClose={() => dispatch(setActiveModal(null))} 
+        isOpen={modalIsOpen}
+        onRequestClose={() => dispatch(setActiveModal(null))}
         ariaHideApp={false}
         contentLabel="Delete Confirmation"
         className="w-4/5 mt-20 mx-auto bg-white p-6 rounded"
         overlayClassName="fixed inset-0 bg-black bg-opacity-50"
         shouldCloseOnOverlayClick={false}
         shouldFocusAfterRender={true}
+        style={{
+          overlay: { 
+            overflowY: 'auto', cursor: 'default' },
+            content: { cursor: 'auto' } 
+        }} 
       >
         <div>
           <h2 className="text-lg font-bold">シリーズ絞り込み</h2>
