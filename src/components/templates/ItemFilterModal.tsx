@@ -97,10 +97,9 @@ const ItemFilterModal = () => {
         shouldCloseOnOverlayClick={false}
         shouldFocusAfterRender={true}
         style={{
-          overlay: { 
-            overflowY: 'auto', cursor: 'default' },
-            content: { cursor: 'auto' } 
-        }} 
+          overlay: { overflowY: 'auto', cursor: 'default' },
+          content: { cursor: 'auto' },
+        }}
       >
         <div>
           <h2 className="text-lg font-bold">シリーズ絞り込み</h2>
