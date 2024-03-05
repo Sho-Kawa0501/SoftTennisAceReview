@@ -67,6 +67,11 @@ const Index:NextPage<ReviewPageProps> = React.memo(({ staticItems,staticItemMeta
           サイト案内           
         </AppButton>
       </Link>
+      <Link href={`/tennis-court-map`}>
+        <AppButton type={"submit"} color="red" disabled={isButtonDisabled}>
+          簡易テニスコートマップ
+        </AppButton>
+      </Link>
       <div className="flex flex-wrap">
         <ItemCardList items={filteredItems} />
       </div>
