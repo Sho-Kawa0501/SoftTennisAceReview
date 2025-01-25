@@ -49,7 +49,7 @@ https://www.softtennis-ace-review.com
 ## 使用技術
 | Category          | Technology Stack                          |
 | ----------------- | ----------------------------------------- |
-| Frontend          | TypeScript, Next.js, redux-tool-kit       |
+| Frontend          | TypeScript, React.js, Next.js             |
 | Backend           | Python(3.11),Django-rest-framework(3.14.0)|
 | Infrastructure    | Render, Vercel                            |
 | Database          | PostgreSQL(14.10)                         |
