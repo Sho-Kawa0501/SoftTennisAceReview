@@ -10,6 +10,7 @@
 
 ### URL
 https://www.softtennis-ace-review.com
+※現在はサーバーを停止しているため閲覧はできません。
 ### テスト用アカウント
 - メールアドレス/t1@t1.com
 - パスワード/test1pass
