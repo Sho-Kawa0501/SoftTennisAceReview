@@ -8,6 +8,9 @@
 強い選手が使用していることや、デザイン性、Youtuberの方のレビューが主な決め手であるということが分かりました。   
 そういった背景から、ラケット使用者の生の声をシェアできるものがあれば、初級者の方が自分に合ったラケットを見つけやすくなると考え、作成に至りました。
 
+### API
+https://github.com/Sho-Kawa0501/SoftTennisAceReview-API
+
 ### URL
 https://www.softtennis-ace-review.com
 ※現在はサーバーを停止しているため閲覧はできません。
